@@ -113,7 +113,7 @@ class Database:
 
 
         conn.commit()
-        print(f'Клиент удален {client_id} из списка')
+        print(f'Клиент{client_id} удален из списка')
 
     def find_client(self, conn, first_name=None, last_name=None, email=None, phone=None):
         #Поиск
